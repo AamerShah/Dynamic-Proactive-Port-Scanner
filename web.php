@@ -2,22 +2,12 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
 <title>Port Scanner</title>
-<link rel="stylesheet" type="text/css" href="../remove.css">
 <script src="js/jquery-2.0.2.min.js" type="text/javascript"></script>
 <script src="js/loadFields.js" type="text/javascript" ></script>
 <script>function pS() { var tim; window.scrollBy(0, 1); tim = setTimeout('pS()', 10);}</script><body onload=pS()>
 <style>#nav{position: fixed; top: 50; left: 30%;} #result{position: relative; top: 45;}</style>
 </head>
-<body bgcolor=efefef link=red vlink=red>
-    <body bgcolor=efefef link=red vlink=red>
-    <ul class="topnav">
-  <li><a class="active" href="http://api.aamer.xyz/?home_button">Home</a></li>
-  <li><a href="https://github.com/AamerShah">GitHub</a></li>
-  <li><a href="mailto:1@aamer.xyz?Subject=Visitor:%20api">Contact</a></li>
-  <li class="right"><a href="#" onclick="alert('This project is created by Aamer Shah under GPL 3.0');">About</a></li>
-</ul>
-
-    <center><div id="nav"><h3><span style="color:gray">Web based, DYNAMIC <span style="color:#9c353a">PORT SCANNER</span></span></h3>
+<body bgcolor=efefef link=red vlink=red><center><div id="nav"><h3><span style="color:gray">Web based, DYNAMIC <span style="color:#9c353a">PORT SCANNER</span></span></h3>
 <form method="post">
     <input autocomplete="off" required placeholder="Domain / IP..." type="text" name="domain" autofocus />&nbsp;
 	<input autocomplete="off" required placeholder="Starting Port" type="text" name="startport" />&nbsp;

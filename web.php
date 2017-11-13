@@ -5,7 +5,7 @@
 <script src="js/jquery-2.0.2.min.js" type="text/javascript"></script>
 <script src="js/loadFields.js" type="text/javascript" ></script>
 <script>function pS() { var tim; window.scrollBy(0, 1); tim = setTimeout('pS()', 10);}</script><body onload=pS()>
-<style>#nav{position: fixed; top: 50; left: 30%;} #result{position: relative; top: 45;}</style>
+<style>#nav{position: fixed; top: 50; left: 30%; z-index: 1;} #result{position: relative; top: 45;}</style>
 </head>
 <body bgcolor=efefef link=red vlink=red><center><div id="nav"><h3><span style="color:gray">Web based, DYNAMIC <span style="color:#9c353a">PORT SCANNER</span></span></h3>
 <form method="post">
